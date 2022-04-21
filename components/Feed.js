@@ -24,13 +24,7 @@ const Feed = () => {
 	)
 
 	return (
-		<Flex
-			borderX="1px"
-			borderColor="gray.400"
-			minWidth="60%"
-			flexDirection="column"
-			ml={{ sm: "10", md: "200", lg: "250" }}
-		>
+		<Flex borderColor="gray.400" minWidth="60%" flexDirection="column" ml={{ sm: "10", md: "200", lg: "250" }}>
 			{/* Nơi chứa nút Home và Sparkle Icon */}
 			<Flex pos="sticky" top="0" zIndex="50" p="2px 5px" align="center" justifyContent="center" opacity="50%">
 				<Icon cursor="pointer" as={FaHome} h="10" w="10" color="blue.600" />

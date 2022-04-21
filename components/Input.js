@@ -77,7 +77,7 @@ const InputTweet = () => {
 
 	return (
 		<Flex flexDirection="column" p="3">
-			<Flex gap="5" px="5">
+			<Flex gap="5">
 				<Box>
 					<Avatar _hover={{ opacity: "50%" }} name="avatar" size="lg" src={session.user.image} />
 				</Box>

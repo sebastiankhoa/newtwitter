@@ -26,7 +26,7 @@ export default function Home({ trendingResults, followResults, providers }) {
 				<Flex bgGradient="linear(to-r, gray.300, yellow.400, pink.200)" minHeight="100vh" mx="auto" maxW="1500px">
 					<Sidebar />
 					<Feed />
-					<Widget trending={trendingResults} follow={followResults} />
+					{/* <Widget trending={trendingResults} follow={followResults} /> */}
 					<CommentModal />
 				</Flex>
 			</main>
